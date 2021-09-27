@@ -1,0 +1,180 @@
+@font-face {
+    font-family: PoiretOne;
+    src: url(PoiretOne-Regular.ttf);
+}
+body {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: PoiretOne;
+    background-color: #F9F4ED;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    width: 79%;
+    height: 6.75%;
+    padding: 0px 10% 0px 10%;
+    display: flex;
+    border-top: 0.5vw black solid;
+    border-right: 0.5vw black solid;
+    border-left: 0.5vw black solid;
+    border-bottom: 0.25vw black solid;
+}
+
+#header h1 {
+    margin: 0;
+    align-self: center;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+#container {
+    display: flex;
+    border-top: 0.25vw black solid;
+    border-right: 0.5vw black solid;
+    border-bottom: 0.25vw black solid;
+    border-left: 0.5vw black solid;
+    width: 99%;
+    height: 81.5%;
+}
+
+#imageDiv {
+    height: 100%;
+    width: 39.75%;
+    border-right: 0.25vw black solid;
+}
+
+#desc {
+    height: 100%;
+    width: 59.75%;
+    border-left: 0.25vw black solid;
+}
+
+#buttons {
+    height: 9.25%;
+    width: 99%;
+    border-top: 0.25vw black solid;
+    border-right: 0.5vw black solid;
+    border-bottom: 0.5vw black solid;
+    border-left: 0.5vw black solid;
+    display: flex;
+}
+
+#button1 {
+    width: 49.75%;
+    border-right: 0.25vw black solid;
+}
+
+#button2 {
+    width: 49.75%;
+    border-left: 0.25vw black solid;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 450ms;
+}
+
+.button:hover {
+    font-size: 55px;
+    letter-spacing: 15px;
+}
+
+/**.home {
+    display :grid;
+    grid-template-rows: [row0] 8% [row1] 82% [row2] 10% [row3];
+    grid-template-columns: [col0] 40% [col1] 10% [col2] 50% [col3];
+}
+
+#header {
+    padding: 0px 100px 0px 100px;
+    grid-row-start: row0;
+    grid-row-end: row1;
+    grid-column-start: col0;
+    grid-column-end: col3;
+    display: flex;
+    border-top: 10px black solid;
+    border-right: 10px black solid;
+    border-bottom: 5px black solid;
+    border-left: 10px black solid;
+}
+
+#header h1 {
+    margin: 0;
+    align-self: center;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+#imageDiv {
+    grid-row-start: row1;
+    grid-row-end: row2;
+    grid-column-start: col0;
+    grid-column-end: col1;
+    border-top: 5px black solid;
+    border-right: 5px black solid;
+    border-bottom: 5px black solid;
+    border-left: 10px black solid;
+}
+
+#desc {
+    grid-row-start: row1;
+    grid-row-end: row2;
+    grid-column-start: col1;
+    grid-column-end: col3;
+    border-top: 5px black solid;
+    border-right: 10px black solid;
+    border-bottom: 5px black solid;
+    border-left: 5px black solid;
+}
+
+#projects {
+    grid-row-start: row2;
+    grid-row-end: row3;
+    grid-column-start: col0;
+    grid-column-end: col2;
+    border-top: 5px black solid;
+    border-right: 5px black solid;
+    border-bottom: 10px black solid;
+    border-left: 10px black solid;
+}
+
+#contact {
+    grid-row-start: row2;
+    grid-row-end: row3;
+    grid-column-start: col2;
+    grid-column-end: col3;
+    border-top: 5px black solid;
+    border-right: 10px black solid;
+    border-bottom: 10px black solid;
+    border-left: 5px black solid;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 450ms;
+}
+
+.button:hover {
+    font-size: 55px;
+    letter-spacing: 15px;
+}**/
+
